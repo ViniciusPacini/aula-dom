@@ -2,24 +2,33 @@
 <html lang="pt-BR">
 
 <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Aula de Dom</title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Aula de Dom</title>
 </head>
-  <style>
+<!-- <style>
     /* .destaque = fundo amarelo claro, espaçamento e cantos arredondados */
     .destaque { background: #fff3b0; padding: 8px; border-radius: 6px; }
 
     /* .oculto = o elemento some da tela (continua existindo no HTML) */
     .oculto   { display: none; }
-  </style>
-<body>
-    <!-- <h1 class="titulo">Aula de Dom</h1> -->
-    <!-- <p class="texto">Olá! O JavaScript vai me modificar.</p> -->
+  </style> -->
+<!-- <style>
+  .bloco {
+    height: 40px;
+    margin: 4px;
+    color: #fff;
+    padding: 8px;
+  }
+</style> -->
 
-    <!-- <p id="mensagem">Olá! O JavaScript vai me modificar.</p>
+<body>
+  <!-- <h1 class="titulo">Aula de Dom</h1> -->
+  <!-- <p class="texto">Olá! O JavaScript vai me modificar.</p> -->
+
+  <!-- <p id="mensagem">Olá! O JavaScript vai me modificar.</p>
     <button id="btn-acao">Clique Aqui</button> -->
-    <!--
+  <!--
     <div class="container">
       <p class="alerta">Primeiro alerta (este será selecionado)</p>
     </div>
@@ -40,17 +49,34 @@
     <button id="btn-mudar">Alterar</button>
 
     -->
-    <ul id="lista">
-        <li>Item fixo</li>
-    </ul>
-    <button id="btn-add">Adicionar item</button>
-    <button id="btn-remover">Remover último</button>
-    
-    
-    
-    
-    
-    <script src="script.js" defer></script>
+
+
+  <!-- <input type="text" id="nome" placeholder="Nome">
+<input type="email" class="campo-email" placeholder="E-mail">
+<button id="btn-ler">Ler dados</button> -->
+
+
+  <!-- <table id="tabela-dados" border="1"></table> -->
+
+  <!-- <p id="segredo">Este texto aparece e some.</p>
+<button id="btn-toggle">Mostrar/Esconder</button>
+<style>.oculto { display: none; }</style> -->
+
+  <button id="btn-tema">Modo escuro</button>
+  <p>Texto de exemplo.</p>
+  <style>
+    body {
+      background: #fff;
+      color: #222;
+    }
+
+    body.escuro {
+      background: #1e1e1e;
+      color: #eee;
+    }
+  </style>
+
+  <script src="exercicios.js" defer></script>
 </body>
 
 </html>
